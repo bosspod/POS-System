@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+project(FINALPJ)
+set(CMAKE_CXX_STANDARD 14)
+
+set(SOURCE_FILES m3.c src/inventory.c src/inventory.h src/accounting.c src/accounting.h src/pos.c src/pos.h src/other.h src/other.c src/menu.h src/menu.c)
+
+add_executable(FINALPJ ${SOURCE_FILES})
